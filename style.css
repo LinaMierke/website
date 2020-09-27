@@ -71,8 +71,6 @@ margin-bottom: 80px;
   .middle{
       display: flex;
       justify-content: center;
-      /* flex-direction: column; */
-      /* border: 1px solid red; */
       justify-items: center;
       margin-bottom: 30px;
       font-family: 'Hind Madurai', sans-serif;
