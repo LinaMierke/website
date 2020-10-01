@@ -1,23 +1,15 @@
 body{
-    /* display: flex; */
-    /* flex-direction: column;
-    justify-content: center;
-    margin: auto; */
+    margin: 0;
+    padding:0;
 }
 
-@media screen and (max-width: 900px) and (min-width: 600px), (min-width: 1100px) {
-    div.example {
-      font-size: 50px;
-      padding: 50px;
-      
-    }
 .section1{
     display: flex;
     flex-direction:column;
     border: 1px solid red;
     width: 100%;
     margin: 20px 10px;
-    
+    /* border: solid 1px black */
     
 }
 ul {
@@ -34,13 +26,16 @@ ul {
     margin-left: 250px;
     align-items: baseline;
     font-weight: bolder;
+    /* border: solid 1px red; */
   }
   .interior{
       font-size: 18px;
       font-weight: bolder;
+      border: solid 1px blue;
   }
 li{
     float:left;
+    border: solid 1px green;
 }
   
   li a {
@@ -49,11 +44,12 @@ li{
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    /* border: 1px solid black; */
+    border: 1px solid orange;
   }
 
- .only{
-     margin-left: 800px;
+ .contact{
+     float: right;
+     margin-right: 20px;
  }
 
 .art{
@@ -76,7 +72,10 @@ margin-bottom: 80px;
       font-family: 'Hind Madurai', sans-serif;
       font-size: 30px;
   }
- 
+ .middle > p {
+     text-align: center;
+
+ }
 
 .main_content{
     display: flex; 
@@ -106,13 +105,13 @@ margin-bottom: 80px;
     
 }
 
-.uno{
+/* .uno{
     max-width: 300px;
-    height: 300px;
-} 
+    height: 300px; */
+/* }  */
 .text {
-    height: 250px;
-    width: 250px;
+    height: 300px;
+    width: 300px;
     display: flex;
     flex-direction: column;
     /* background-color: yellow; */
@@ -217,4 +216,14 @@ height: 22px;
 background-position: center;
 background-size: cover;
 
+}
+
+@media screen and (max-width: 575px) {
+    .grid_images {
+      font-size: 50px;
+      padding: 50px; 
+      height: 400px;
+      width: 70%
+    }
+   
 }
